@@ -1,0 +1,108 @@
+\documentclass[12pt]{lettre}
+
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{eurosym}
+\usepackage[frenchb]{babel}
+\usepackage{numprint}
+\usepackage[table]{xcolor}
+
+
+\setlength{\arrayrulewidth}{1mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{2.5}
+
+\begin{document}
+
+\begin{letter}{Equipe IDEMEC}
+\name{Service informatique}
+\address{Cluster Pegase}
+\lieu{Marseille}
+\telephone{01 02 03 04 05}
+\email{serviceinfo@institut.fr}
+\nofax
+
+\def\concname{Objet :~} % On définit ici la commande 'objet'
+\conc{Décompte de l'utilisation du cluster pour l'équipe IDEMEC}
+\opening{Madame, Monsieur,}
+
+Veuillez trouver ci-après la liste détaillée des jobs soumis sur le cluster pegase, par l'équipe IDEMEC.
+
+Ces jobs ont représenté un temps total de 734 heures machines, sur un total de 2421 heures machines sur la totalité du cluster.
+
+Comme l'amortissement du cluster représente, mensuellement, 720 \euro HT, l'utilisation par votre équipe vous sera facturée, ce mois-ci, à hauteur de 218,29 \euro HT. 
+
+
+
+\closing{Je vous prie d'agréer,
+Madame, Monsieur,
+mes salutations distinguées.}
+
+
+\newpage 
+Liste des jobs soumis par les membres de votre équipe : 
+
+
+ 
+
+ \rowcolors{2}{gray!30!}{gray!15!}
+
+\begin{tabular}{ |p{4cm}|p{1.5cm}|p{1.5cm}|p{4cm}|  }
+\hline
+Date et heure  &  Job Id & utilisateur & Temps de calcul  \\
+\hline
+ 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+%\hline
+%Date et heure  &  Job Id & utilisateur & Temps de calcul  \\
+%\hline
+ 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+ 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+ 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+ 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+ 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+ 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\ 
+ 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+\hline
+\end{tabular}
+
+%}
+
+%\newpage 
+%
+%\ps { Liste des jobs soumis par les membres de votre équipe : } {
+% PPP
+%%{
+%% PPP
+%%
+%%
+%%% \rowcolors{2}{gray!30!}{gray!15!}
+%%
+%%%\begin{tabular}{ |p{4cm}|p{1.5cm}|p{1.5cm}|p{4cm}|  }
+%%%\hline
+%%%Date et heure  &  Job Id & utilisateur & Temps de calcul  \\
+%%%\hline
+%%% 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+%%%\hline
+%%%
+%%%
+%%%%\multicolumn{3}{|c|}{Country List} \\
+%%%%\hline
+%%%%Date et heure  &  Job Id & utilisateur & Temps de calcul  \\
+%%%%\hline
+%%%% 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+%%%% 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+%%%% 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+%%%% 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+%%%% 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+%%%% 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\ 
+%%%% 2019 sep 02 14:46:35 & 14340 & Tom  & 1h 7m 12s (4032 s)  \\
+%%%%\hline
+%%%\end{tabular}
+%%}
+%
+%}
+
+\end{letter}
+
+\end{document}
